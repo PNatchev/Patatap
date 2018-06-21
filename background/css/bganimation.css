@@ -1,0 +1,169 @@
+@media screen and (max-width: 767px) {
+
+    body{
+   
+
+    width: 100vw;
+    margin: 0 auto;
+            overflow-x: hidden;
+
+}
+    
+    .animation {
+    position: fixed;
+        z-index: -5;
+        top: 18vw;
+        left: -85vw;
+        animation: animationshadows 200s alternate infinite;
+     }
+    .animation2{
+      position: fixed;
+        z-index:-4;
+        top:18vw;
+      right: -100vw;
+        animation: animationshadows2 180s alternate infinite;
+    }
+    
+        @keyframes animationshadows {
+        
+        0%{
+            
+            left: -85vw;
+        }
+        100%{
+            left: 50vw;
+            
+        }
+       
+    }
+    
+    @keyframes animationshadows2{
+       
+      0%{
+          right:-100vw;
+            
+        }
+        100%{
+           right:0vw;
+    
+    }
+
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+
+        body{
+   
+
+    width: 100vw;
+    margin: 0 auto;
+            overflow-x: hidden;
+
+}
+    
+    .animation {
+    position: fixed;
+        z-index: -5;
+        top: 18vw;
+        left: -85vw;
+        animation: animationshadows 200s alternate infinite ;
+     }
+    .animation2{
+      position: fixed;
+        z-index:-4;
+        top:18vw;
+      right: -100vw;
+        animation: animationshadows2 180s alternate infinite;
+    }
+    
+    
+    
+    @keyframes animationshadows {
+        
+        0%{
+            
+            left: -85vw;
+        }
+        100%{
+            left: 50vw;
+            
+        }
+       
+    }
+    
+    @keyframes animationshadows2{
+       
+      0%{
+          right:-100vw;
+            
+        }
+        100%{
+           right:0vw;
+    
+    }
+
+    
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+     body{
+   
+
+    width: 100vw;
+    margin: 0 auto;
+            overflow-x: hidden;
+
+}
+    
+    .animation {
+    position: fixed;
+        z-index: -5;
+        top: 12vw;
+        left: -85vw;
+        animation: animationshadows 200s alternate infinite ;
+     }
+    .animation2{
+      position: fixed;
+        z-index:-4;
+        top:12vw;
+      right: -100vw;
+        animation: animationshadows2 180s alternate infinite;
+    }
+    
+    
+    
+    @keyframes animationshadows {
+        
+        0%{
+            
+            left: -85vw;
+        }
+        100%{
+            left: 50vw;
+            
+        }
+       
+    }
+    
+    @keyframes animationshadows2{
+       
+      0%{
+          right:-100vw;
+            
+        }
+        100%{
+           right:0vw;
+    
+    }
+
+}
