@@ -1,0 +1,312 @@
+@media screen and (max-width: 767px) {
+
+        body{
+   
+    
+    width: 100vw;
+    margin: 0 auto;
+    height: 60vw;
+
+}
+    
+    .animation1 {
+	width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    position: fixed;
+        top: 30vw;
+        left: 30vw;
+        animation: animationshadows 5s  ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows {
+	0% { width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        border-radius: 50px;
+        opacity: 1;
+        box-shadow: 
+      0px 1000px 0 0 blue, 
+      0px -1000px 0 0 black,
+      1000px 0px 0 0 blue, 
+      -1000px 0px 0 0 black, 
+      -750px 500px 0 0 red, 
+      750px 500px 0 0 black, 
+      750px -500px 0 0 black,
+      50px 500px 0 0 green, 
+      90px -500px 0 0 yellow, 
+      500px 500px 0 0 black, 
+      -500px -500px 0 0 purple,
+      -500px 500px 0 0 green, 
+      500px -550px 0 0 black, 
+      650px 400px 0 0 black;
+        
+        
+        }
+        
+        100%{
+             width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+      0px 1000px 0 0 black, 
+      0px -1000px 0 0 black,
+      1000px 0px 0 0 black, 
+      -1000px 0px 0 0 black, 
+      -750px 500px 0 0 black, 
+      750px 500px 0 0 black, 
+      750px -500px 0 0 black,
+      50px 500px 0 0 black, 
+      90px -500px 0 0 black, 
+      500px 500px 0 0 black, 
+      -500px -500px 0 0 black,
+      -500px 500px 0 0 black, 
+      500px -550px 0 0 black, 
+      650px 400px 0 0 black;
+        }
+        
+        
+        
+        
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+        body{
+   
+    
+    width: 100vw;
+    margin: 0 auto;
+    height: 60vw;
+
+}
+    
+    .animation {
+	width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    position: fixed;
+        top: 30vw;
+        left: 30vw;
+        animation: animationshadows 5s  ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows {
+	0% { width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        border-radius: 50px;
+        opacity: 1;
+        box-shadow: 
+      0px 1000px 0 0 blue, 
+      0px -1000px 0 0 black,
+      1000px 0px 0 0 blue, 
+      -1000px 0px 0 0 black, 
+      -750px 500px 0 0 red, 
+      750px 500px 0 0 black, 
+      750px -500px 0 0 black,
+      50px 500px 0 0 green, 
+      90px -500px 0 0 yellow, 
+      500px 500px 0 0 black, 
+      -500px -500px 0 0 purple,
+      -500px 500px 0 0 green, 
+      500px -550px 0 0 black, 
+      650px 400px 0 0 black;
+        
+        
+        }
+        
+        100%{
+             width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+      0px 1000px 0 0 black, 
+      0px -1000px 0 0 black,
+      1000px 0px 0 0 black, 
+      -1000px 0px 0 0 black, 
+      -750px 500px 0 0 black, 
+      750px 500px 0 0 black, 
+      750px -500px 0 0 black,
+      50px 500px 0 0 black, 
+      90px -500px 0 0 black, 
+      500px 500px 0 0 black, 
+      -500px -500px 0 0 black,
+      -500px 500px 0 0 black, 
+      500px -550px 0 0 black, 
+      650px 400px 0 0 black;
+        }
+        
+        
+        
+        
+}
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+        body{
+   
+    
+    width: 100vw;
+    margin: 0 auto;
+    height: 60vw;
+
+}
+    
+    .animation {
+	width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    position: fixed;
+        top: 20vw;
+        left: 30vw;
+        animation: animationshadows 5s  ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows {
+	0% { width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        border-radius: 50px;
+        opacity: 1;
+        box-shadow: 
+      0px 1000px 0 0 blue, 
+      0px -1000px 0 0 black,
+      1000px 0px 0 0 blue, 
+      -1000px 0px 0 0 black, 
+      -750px 500px 0 0 red, 
+      750px 500px 0 0 black, 
+      750px -500px 0 0 black,
+      50px 500px 0 0 green, 
+      90px -500px 0 0 yellow, 
+      500px 500px 0 0 black, 
+      -500px -500px 0 0 purple,
+      -500px 500px 0 0 green, 
+      500px -550px 0 0 black, 
+      650px 400px 0 0 black;
+        
+        
+        }
+        
+        100%{
+             width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+      0px 1000px 0 0 black, 
+      0px -1000px 0 0 black,
+      1000px 0px 0 0 black, 
+      -1000px 0px 0 0 black, 
+      -750px 500px 0 0 black, 
+      750px 500px 0 0 black, 
+      750px -500px 0 0 black,
+      50px 500px 0 0 black, 
+      90px -500px 0 0 black, 
+      500px 500px 0 0 black, 
+      -500px -500px 0 0 black,
+      -500px 500px 0 0 black, 
+      500px -550px 0 0 black, 
+      650px 400px 0 0 black;
+        }
+        
+        
+        
+        
+}
+}
