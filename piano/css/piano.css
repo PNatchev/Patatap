@@ -1,0 +1,370 @@
+@media screen and (max-width: 767px) {
+    body{
+        width: 100vw;
+        height: 120vw;
+       
+    }
+    .whitetile1{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 30vw;
+        top: 80vw;
+        z-index: 2;
+    }
+    
+    .whitetile1:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .whitetile2{
+         background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 40vw;
+        top: 80vw;
+         z-index: 2;
+    }
+    
+    .whitetile2:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile3{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 50vw;
+        top: 80vw;
+        z-index: 2;
+    }
+    
+    .whitetile3:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile4{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 60vw;
+        top: 80vw;
+        z-index: 2;
+    }
+    
+    .whitetile4:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .blacktile1{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 37.5vw;
+        top: 80vw;
+         z-index: 4;
+         
+    }
+    .blacktile1:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+     .blacktile2{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 47.5vw;
+        top: 80vw;
+         z-index: 4;
+    }
+    
+    .blacktile2:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+    .blacktile3{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 57.5vw;
+        top: 80vw;
+         z-index: 4;
+    }
+    .blacktile3:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) {
+    
+     body{
+        width: 100vw;
+        
+        
+    }
+    .whitetile1{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 30vw;
+        top: 40vw;
+    }
+    
+    .whitetile1:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .whitetile2{
+         background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 40vw;
+        top: 40vw;
+    }
+    
+    .whitetile2:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile3{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 50vw;
+        top: 40vw;
+    }
+    
+    .whitetile3:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile4{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 60vw;
+        top: 40vw;
+    }
+    
+    .whitetile4:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .blacktile1{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 37.5vw;
+        top: 40vw;
+         z-index: 4;
+    }
+    .blacktile1:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+     .blacktile2{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 47.5vw;
+        top: 40vw;
+         z-index: 4;
+    }
+    
+    .blacktile2:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+    .blacktile3{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 57.5vw;
+        top: 40vw;
+         z-index: 4;
+    }
+    .blacktile3:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1200px) {
+     body{
+        width: 100vw;
+        
+        
+    }
+    .whitetile1{
+        background-color: white;
+        height: 15vw;
+        width: 3.75vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 43vw;
+        top: 34vw;
+    }
+    
+    .whitetile1:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .whitetile2{
+         background-color: white;
+        height: 15vw;
+        width: 3.75vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 46.75vw;
+        top: 34vw;
+    }
+    
+    .whitetile2:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile3{
+        background-color: white;
+        height: 15vw;
+        width: 3.75vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 50.5vw;
+        top: 34vw;
+    }
+    
+    .whitetile3:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile4{
+        background-color: white;
+        height: 15vw;
+        width: 3.75vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 54.25vw;
+        top: 34vw;
+    }
+    
+    .whitetile4:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .blacktile1{
+        background-color: black;
+        height: 9vw;
+        width: 1.87vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 45.8vw;
+        top: 34vw;
+         z-index: 4;
+    }
+    .blacktile1:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+     .blacktile2{
+        background-color: black;
+        height: 9vw;
+        width: 1.87vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 49.6vw;
+        top: 34vw;
+         z-index: 4;
+    }
+    
+    .blacktile2:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+    .blacktile3{
+        background-color: black;
+        height: 9vw;
+        width: 1.87vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 53.3vw;
+        top: 34vw;
+         z-index: 4;
+    }
+    .blacktile3:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+}
