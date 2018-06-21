@@ -1,0 +1,381 @@
+@media screen and (max-width: 767px) {
+
+        body{
+   
+    
+    width: 100vw;
+    margin: 0 auto;
+    height: 60vw;
+
+}
+    
+    .animation {
+	width: 30px;
+	height: 30px;
+	background: red;
+
+    position: fixed;
+        top: 10vw;
+        left: 75vw;
+        animation: animationshadows 3s  ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows {
+	0% { width: 20px;
+	height: 20px;
+       
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        
+        opacity: 1;
+        box-shadow: 
+      -200px 450px 0 0 blue, 
+      -1000px 300px 0 0 black,
+      -100px 250px 0 0 blue, 
+      -300px 700px 0 0 black, 
+      -1500px 355px 0 0 red, 
+      -500px 666px 0 0 black, 
+      -150px 150px 0 0 black,
+      -5px 0px 0 0 green, 
+      -90px 10px 0 0 yellow, 
+      -200px 40px 0 0 black, 
+      -250px 100px 0 0 purple,
+      -300px 150px 0 0 green, 
+      -400px 200px 0 0 black, 
+      -500px 225px 0 0 black;
+        
+        
+        }
+        26%{
+          width: 30px;
+	height: 30px;
+        
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;
+            
+        }
+        27%{
+            opacity: 1;
+        }
+        
+        100%{
+             width: 20px;
+	height: 20px;
+        
+        opacity: 0;
+        box-shadow: 
+    -500px 450px 0 0 blue, 
+      -1500px 300px 0 0 black,
+      -1000px 250px 0 0 blue, 
+      -500px 700px 0 0 black, 
+      -150px 355px 0 0 red, 
+      -450px 666px 0 0 black, 
+      -600px 150px 0 0 black,
+      -800px 0px 0 0 green, 
+      -300px 10px 0 0 yellow, 
+      -5200px 40px 0 0 black, 
+      -50px 100px 0 0 purple,
+      -50px 150px 0 0 green, 
+      -100px 200px 0 0 black, 
+      -500px 225px 0 0 black;
+        }
+        
+        
+        
+        
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+        body{
+   
+    
+    width: 100vw;
+    margin: 0 auto;
+    height: 60vw;
+
+}
+    
+    .animation {
+	width: 30px;
+	height: 30px;
+	background: red;
+
+    position: fixed;
+        top: 10vw;
+        left: 75vw;
+        animation: animationshadows 3s  ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows {
+	0% { width: 20px;
+	height: 20px;
+       
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        
+        opacity: 1;
+        box-shadow: 
+      -200px 450px 0 0 blue, 
+      -1000px 300px 0 0 black,
+      -100px 250px 0 0 blue, 
+      -300px 700px 0 0 black, 
+      -1500px 355px 0 0 red, 
+      -500px 666px 0 0 black, 
+      -150px 150px 0 0 black,
+      -5px 0px 0 0 green, 
+      -90px 10px 0 0 yellow, 
+      -200px 40px 0 0 black, 
+      -250px 100px 0 0 purple,
+      -300px 150px 0 0 green, 
+      -400px 200px 0 0 black, 
+      -500px 225px 0 0 black;
+        
+        
+        }
+        26%{
+          width: 30px;
+	height: 30px;
+        
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;
+            
+        }
+        27%{
+            opacity: 1;
+        }
+        
+        100%{
+             width: 20px;
+	height: 20px;
+        
+        opacity: 0;
+        box-shadow: 
+    -500px 450px 0 0 blue, 
+      -1500px 300px 0 0 black,
+      -1000px 250px 0 0 blue, 
+      -500px 700px 0 0 black, 
+      -150px 355px 0 0 red, 
+      -450px 666px 0 0 black, 
+      -600px 150px 0 0 black,
+      -800px 0px 0 0 green, 
+      -300px 10px 0 0 yellow, 
+      -5200px 40px 0 0 black, 
+      -50px 100px 0 0 purple,
+      -50px 150px 0 0 green, 
+      -100px 200px 0 0 black, 
+      -500px 225px 0 0 black;
+        }
+        
+        
+        
+        
+}
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+        body{
+   
+    
+    width: 100vw;
+    margin: 0 auto;
+    height: 60vw;
+
+}
+    
+    .animation {
+	width: 30px;
+	height: 30px;
+	background: red;
+
+    position: fixed;
+        top: 10vw;
+        left: 75vw;
+        animation: animationshadows 3s  ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows {
+	0% { width: 20px;
+	height: 20px;
+       
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        
+        opacity: 1;
+        box-shadow: 
+      -200px 450px 0 0 blue, 
+      -1000px 300px 0 0 black,
+      -100px 250px 0 0 blue, 
+      -300px 700px 0 0 black, 
+      -1500px 355px 0 0 red, 
+      -500px 666px 0 0 black, 
+      -150px 150px 0 0 black,
+      -5px 0px 0 0 green, 
+      -90px 10px 0 0 yellow, 
+      -200px 40px 0 0 black, 
+      -250px 100px 0 0 purple,
+      -300px 150px 0 0 green, 
+      -400px 200px 0 0 black, 
+      -500px 225px 0 0 black;
+        
+        
+        }
+        26%{
+          width: 30px;
+	height: 30px;
+        
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;
+            
+        }
+        27%{
+            opacity: 1;
+        }
+        
+        100%{
+             width: 20px;
+	height: 20px;
+        
+        opacity: 0;
+        box-shadow: 
+    -500px 450px 0 0 blue, 
+      -1500px 300px 0 0 black,
+      -1000px 250px 0 0 blue, 
+      -500px 700px 0 0 black, 
+      -150px 355px 0 0 red, 
+      -450px 666px 0 0 black, 
+      -600px 150px 0 0 black,
+      -800px 0px 0 0 green, 
+      -300px 10px 0 0 yellow, 
+      -5200px 40px 0 0 black, 
+      -50px 100px 0 0 purple,
+      -50px 150px 0 0 green, 
+      -100px 200px 0 0 black, 
+      -500px 225px 0 0 black;
+        }
+        
+        
+        
+        
+}
+}
