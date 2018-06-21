@@ -1,0 +1,2359 @@
+@media screen and (max-width: 767px) {
+    body{
+        width: 100vw;
+        height: 120vw;
+       
+    }
+    .animation11{}
+    .whitetile1{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 30vw;
+        top: 80vw;
+        z-index: 2;
+    }
+    
+   
+    .whitetile1:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .whitetile2{
+         background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 40vw;
+        top: 80vw;
+         z-index: 2;
+    }
+    
+    .whitetile2:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile3{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 50vw;
+        top: 80vw;
+        z-index: 2;
+    }
+    
+    .whitetile3:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile4{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 60vw;
+        top: 80vw;
+        z-index: 2;
+    }
+    
+    .whitetile4:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .blacktile1{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 37.5vw;
+        top: 80vw;
+         z-index: 4;
+         
+    }
+    .blacktile1:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+     .blacktile2{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 47.5vw;
+        top: 80vw;
+         z-index: 4;
+    }
+    
+    .blacktile2:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+    .blacktile3{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 57.5vw;
+        top: 80vw;
+         z-index: 4;
+    }
+    .blacktile3:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+    
+    /* first animation */
+    
+     .animation1 {
+	width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    position: fixed;
+        top: 30vw;
+        left: 30vw;
+        animation: animationshadows 5s forwards  ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows {
+	0% { width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        border-radius: 50px;
+        opacity: 1;
+        box-shadow: 
+      0px 1000px 0 0 blue, 
+      0px -1000px 0 0 black,
+      1000px 0px 0 0 blue, 
+      -1000px 0px 0 0 black, 
+      -750px 500px 0 0 red, 
+      750px 500px 0 0 black, 
+      750px -500px 0 0 black,
+      50px 500px 0 0 green, 
+      90px -500px 0 0 yellow, 
+      500px 500px 0 0 black, 
+      -500px -500px 0 0 purple,
+      -500px 500px 0 0 green, 
+      500px -550px 0 0 black, 
+      650px 400px 0 0 black;
+        
+        
+        }
+        
+        100%{
+             width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+      0px 1000px 0 0 black, 
+      0px -1000px 0 0 black,
+      1000px 0px 0 0 black, 
+      -1000px 0px 0 0 black, 
+      -750px 500px 0 0 black, 
+      750px 500px 0 0 black, 
+      750px -500px 0 0 black,
+      50px 500px 0 0 black, 
+      90px -500px 0 0 black, 
+      500px 500px 0 0 black, 
+      -500px -500px 0 0 black,
+      -500px 500px 0 0 black, 
+      500px -550px 0 0 black, 
+      650px 400px 0 0 black;
+        }
+        
+        
+        
+        
+}
+    
+    /* first animation */
+    
+    
+    
+    
+    
+    
+    
+    /* second animation */
+    
+       .animation2 {
+	width: 30px;
+	height: 30px;
+	background: red;
+
+    position: fixed;
+        top: 10vw;
+        left: 75vw;
+        animation: animationshadows2 3s forwards ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows2 {
+	0% { width: 20px;
+	height: 20px;
+       
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        
+        opacity: 1;
+        box-shadow: 
+      -200px 450px 0 0 blue, 
+      -1000px 300px 0 0 black,
+      -100px 250px 0 0 blue, 
+      -300px 700px 0 0 black, 
+      -1500px 355px 0 0 red, 
+      -500px 666px 0 0 black, 
+      -150px 150px 0 0 black,
+      -5px 0px 0 0 green, 
+      -90px 10px 0 0 yellow, 
+      -200px 40px 0 0 black, 
+      -250px 100px 0 0 purple,
+      -300px 150px 0 0 green, 
+      -400px 200px 0 0 black, 
+      -500px 225px 0 0 black;
+        
+        
+        }
+        26%{
+          width: 30px;
+	height: 30px;
+        
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;
+            
+        }
+        27%{
+            opacity: 1;
+        }
+        
+        100%{
+             width: 20px;
+	height: 20px;
+        
+        opacity: 0;
+        box-shadow: 
+    -500px 450px 0 0 blue, 
+      -1500px 300px 0 0 black,
+      -1000px 250px 0 0 blue, 
+      -500px 700px 0 0 black, 
+      -150px 355px 0 0 red, 
+      -450px 666px 0 0 black, 
+      -600px 150px 0 0 black,
+      -800px 0px 0 0 green, 
+      -300px 10px 0 0 yellow, 
+      -5200px 40px 0 0 black, 
+      -50px 100px 0 0 purple,
+      -50px 150px 0 0 green, 
+      -100px 200px 0 0 black, 
+      -500px 225px 0 0 black;
+        }
+        
+        
+        
+        
+}
+    /* second animation */
+    
+    
+    
+    /* third animation */
+    
+     .animation3 {
+	width: 30px;
+	height: 30px;
+	background: yellow;
+
+    position: fixed;
+        top: 40vw;
+        left: 50vw;
+        animation: animationshadows3 3s forwards  ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows3 {
+	0% { width: 20px;
+	height: 20px;
+       
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        
+        opacity: 1;
+        box-shadow: 
+      -15px 450px 0 0 yellow,
+      15px 300px 0 0 yellow,
+      -400px 2px 0 0 yellow,
+      400px 30px 0 0 yellow, 
+      450px 355px 0 0 yellow, 
+      -450px 450px 0 0 yellow, 
+      300px -300px 0 0 yellow,
+      50px 50px 0 0 yellow, 
+      150px -150px 0 0 yellow, 
+      5px -5px 0 0 yellow, 
+      -250px 100px 0 0 yellow,
+      250px -150px 0 0 yellow, 
+      600px 200px 0 0 yellow,
+      -500px 1000px 0 0 yellow;
+        
+        
+        }
+       
+        
+        100%{
+            
+            
+            transform: rotate(600deg);
+             width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+    -15px 450px 0 0 yellow,
+      15px 300px 0 0 yellow,
+      -400px 2px 0 0 yellow,
+      400px 30px 0 0 yellow, 
+      450px 355px 0 0 yellow, 
+      -450px 450px 0 0 yellow, 
+      300px -300px 0 0 yellow,
+      50px 50px 0 0 yellow, 
+      150px -150px 0 0 yellow, 
+      5px -5px 0 0 yellow, 
+      -250px 100px 0 0 yellow,
+      250px -150px 0 0 yellow, 
+      600px 200px 0 0 yellow,
+      -500px 1000px 0 0 yellow;
+        }
+        
+        
+        
+        
+}
+    
+    
+    /* third animation */
+    
+    
+    
+    /* fourth animation */
+    
+    .animation4 {
+    width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+        position: fixed;
+        top: 40vw;
+        left: 60vw;
+        opacity: 0;
+            
+        animation: animationshadows4 6s forwards  ;
+}
+    .animation42{
+        width: 20px;
+	height: 20px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+        position: fixed;
+        top: 42vw;
+        left: 62vw;
+        opacity: 0;
+        
+        animation: animationshadows42 10s forwards;
+    }
+    
+    
+    
+    @keyframes animationshadows4 {
+	
+        0%{
+            top: 200vw;
+            left: -40vw;
+        }   
+        
+        50%{
+            width: 50px;
+	height: 50px;
+             top: 40vw;
+            left: 60vw;
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            width: 50px;
+	height: 50px;
+        }
+        
+    }
+    
+    @keyframes animationshadows42{
+        0%{
+               width: 0px;
+	height: 0px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+             box-shadow: 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow;
+        }
+        50%{
+               width: 0px;
+	height: 0px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+             box-shadow: 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow;
+        }
+        55%{
+               width: 0px;
+	height: 0px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+             box-shadow: 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow;
+        }
+       
+       
+     
+        76%{
+               width: 20px;
+	height: 20px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+            opacity: 1;
+            box-shadow: 
+    -50px 450px 0 0 yellow,
+      60px 300px 0 0 yellow,
+      -400px 60px 0 0 yellow,
+      400px 30px 0 0 yellow, 
+      450px 355px 0 0 yellow, 
+      -450px 450px 0 0 yellow, 
+      300px -300px 0 0 yellow,
+      400px 50px 0 0 yellow, 
+      150px -150px 0 0 yellow, 
+      300px -5px 0 0 yellow, 
+      -250px 100px 0 0 yellow,
+      250px -150px 0 0 yellow, 
+      600px 200px 0 0 yellow,
+      -500px 1000px 0 0 yellow,
+            
+        -33px 777px 0 0 yellow,
+      -50px 68px 0 0 yellow,
+      489px -89px 0 0 yellow,
+      470px -79px 0 0 yellow, 
+      -150px 600px 0 0 yellow, 
+      200px 130px 0 0 yellow, 
+      -70px 100px 0 0 yellow,
+      -200px 150px 0 0 yellow, 
+      -321px -279px 0 0 yellow, 
+      -239px 300px 0 0 yellow, 
+      400px 300px 0 0 yellow,
+      290px 250px 0 0 yellow, 
+      333px 400px 0 0 yellow,
+      -300px 200px 0 0 yellow;
+        }
+       100%{
+              width: 50px;
+	height: 50px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+            opacity: 0;
+           box-shadow: 
+    -50px 450px 0 0 yellow,
+      60px 300px 0 0 yellow,
+      -400px 60px 0 0 yellow,
+      400px 30px 0 0 yellow, 
+      450px 355px 0 0 yellow, 
+      -450px 450px 0 0 yellow, 
+      300px -300px 0 0 yellow,
+      400px 50px 0 0 yellow, 
+      150px -150px 0 0 yellow, 
+      300px -5px 0 0 yellow, 
+      -250px 100px 0 0 yellow,
+      250px -150px 0 0 yellow, 
+      600px 200px 0 0 yellow,
+      -500px 1000px 0 0 yellow,
+           
+    -33px 777px 0 0 yellow,
+      -50px 68px 0 0 yellow,
+      489px -89px 0 0 yellow,
+      470px -79px 0 0 yellow, 
+      -150px 600px 0 0 yellow, 
+      200px 130px 0 0 yellow, 
+      -70px 100px 0 0 yellow,
+      -200px 150px 0 0 yellow, 
+      -321px -279px 0 0 yellow, 
+      -239px 300px 0 0 yellow, 
+      400px 300px 0 0 yellow,
+      290px 250px 0 0 yellow, 
+      333px 400px 0 0 yellow,
+      -300px 200px 0 0 yellow;
+        }
+    }
+    
+    
+    
+    /* fourth animation */
+    
+    /* sun */
+    .sun {
+    position: fixed;
+        z-index: -8;
+        top: 30vw;
+      
+        animation: animationsun 8s alternate infinite forwards;
+     }
+    
+    
+    @keyframes animationsun {
+        
+        0%{
+            left: 0vw;
+           
+        }
+        
+        50%{
+            top: 15vw;
+            left: 7vw;
+        }
+        
+        100%{
+            top: 30vw;
+            left: 14vw;
+        }
+        
+       
+    }
+    
+    /* sun */
+    
+    /* moon */
+    
+    .moon{
+        position: fixed;
+        z-index: -8;
+        top: 15vw;
+        left: 39vw;
+        
+        animation: animationmoon 4s alternate infinite forwards;
+    }
+    
+    @keyframes animationmoon {
+        
+        0%{
+            
+           top: 15
+        }
+        
+        50%{
+            top: 30vw;
+            
+        }
+        
+        100%{
+            top: 15vw;
+            
+        }
+        
+       
+    }
+    
+    
+    /* moon */
+    
+    
+    /* both */
+    
+      .moon2{
+        position: fixed;
+        z-index: -8;
+        top: 15vw;
+        left: 39vw;
+        
+        animation: animationmoon2 .25s alternate infinite forwards;
+    }
+    
+      .sun2{
+        position: fixed;
+        z-index: -8;
+        top: 15vw;
+        left: 5vw;
+        
+        animation: animationsun2 .5s alternate infinite forwards;
+    }
+    
+    
+    @keyframes animationsun2 {
+        
+        0%{
+            
+           top: 15vw
+        }
+        10%{
+            top:17vw;
+        }
+        20%{
+            top:13vw;
+        }
+        30%{
+            top:17vw;
+        }
+        40%{
+            top:13vw;
+        }
+        50%{
+            top:17vw;
+        }
+        60%{
+            top: 13vw;
+        }
+        70%{
+            top: 17vw;
+        }
+        80%{
+            top:13vw;
+        }
+        90%{
+            top:17vw;
+            
+        }
+        100%{
+            top: 15vw;
+        }
+        
+       
+    }
+    
+    @keyframes animationmoon2 {
+        
+        0%{
+            
+           top: 15vw
+        }
+        10%{
+            top:17vw;
+        }
+        20%{
+            top:13vw;
+        }
+        30%{
+            top:17vw;
+        }
+        40%{
+            top:13vw;
+        }
+        50%{
+            top:17vw;
+        }
+        60%{
+            top: 13vw;
+        }
+        70%{
+            top: 17vw;
+        }
+        80%{
+            top:13vw;
+        }
+        90%{
+            top:17vw;
+            
+        }
+        100%{
+            top: 15vw;
+        }
+        
+       
+    }
+    
+    /* both */
+    
+    
+    /* background */
+    
+     .animationbg {
+    position: fixed;
+        z-index: -5;
+        top: 18vw;
+        left: -85vw;
+        animation: animationshadowsbg 200s alternate infinite forwards;
+     }
+    .animationbg2{
+      position: fixed;
+        z-index:1;
+        top:18vw;
+      right: -100vw;
+        animation: animationshadowsbg2 180s alternate infinite forwards;
+    }
+    
+        @keyframes animationshadowsbg {
+        
+        0%{
+            
+            left: -85vw;
+        }
+        100%{
+            left: 50vw;
+            
+        }
+       
+    }
+    
+    @keyframes animationshadowsbg2{
+       
+      0%{
+          right:-100vw;
+            
+        }
+        100%{
+           right:0vw;
+    
+    }
+
+    }
+
+    
+    /* background */
+    /* sunbg */
+    
+    .bluebg{
+        position:fixed;
+        z-index:-15;
+        background-color: dodgerblue;
+        height: 500vw;
+        width: 500vw;
+    }
+    
+     .blackbg{
+        position:fixed;
+        z-index:-15;
+        background-color: darkblue;
+        height: 500vw;
+        width: 500vw;
+    }
+    
+    
+    /* sunbg */
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    
+    body{
+        width: 100vw;
+        height: 120vw;
+       
+    }
+     .whitetile1{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 30vw;
+        top: 40vw;
+         z-index: 2;
+    }
+    
+    .whitetile1:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .whitetile2{
+         background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 40vw;
+        top: 40vw;
+         z-index: 2;
+    }
+    
+    .whitetile2:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile3{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 50vw;
+        top: 40vw;
+        z-index: 2;
+    }
+    
+    .whitetile3:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile4{
+        background-color: white;
+        height: 40vw;
+        width: 10vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 60vw;
+        top: 40vw;
+        z-index: 2;
+    }
+    
+    .whitetile4:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .blacktile1{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 37.5vw;
+        top: 40vw;
+         z-index: 4;
+        
+    }
+    .blacktile1:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+     .blacktile2{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 47.5vw;
+        top: 40vw;
+         z-index: 4;
+    }
+    
+    .blacktile2:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+    .blacktile3{
+        background-color: black;
+        height: 25vw;
+        width: 5vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 57.5vw;
+        top: 40vw;
+         z-index: 4;
+    }
+    .blacktile3:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+    /* first animation */
+    .animation1 {
+	width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    position: fixed;
+        top: 30vw;
+        left: 30vw;
+        animation: animationshadows1 5s forwards ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows1 {
+	0% { width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        border-radius: 50px;
+        opacity: 1;
+        box-shadow: 
+      0px 1000px 0 0 blue, 
+      0px -1000px 0 0 black,
+      1000px 0px 0 0 blue, 
+      -1000px 0px 0 0 black, 
+      -750px 500px 0 0 red, 
+      750px 500px 0 0 black, 
+      750px -500px 0 0 black,
+      50px 500px 0 0 green, 
+      90px -500px 0 0 yellow, 
+      500px 500px 0 0 black, 
+      -500px -500px 0 0 purple,
+      -500px 500px 0 0 green, 
+      500px -550px 0 0 black, 
+      650px 400px 0 0 black;
+        
+        
+        }
+        
+        100%{
+             width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+      0px 1000px 0 0 black, 
+      0px -1000px 0 0 black,
+      1000px 0px 0 0 black, 
+      -1000px 0px 0 0 black, 
+      -750px 500px 0 0 black, 
+      750px 500px 0 0 black, 
+      750px -500px 0 0 black,
+      50px 500px 0 0 black, 
+      90px -500px 0 0 black, 
+      500px 500px 0 0 black, 
+      -500px -500px 0 0 black,
+      -500px 500px 0 0 black, 
+      500px -550px 0 0 black, 
+      650px 400px 0 0 black;
+        }
+        
+        
+        
+        
+}
+    
+    /* first animation */
+    
+    
+    
+    
+    
+    
+    
+    /* second animation */
+    
+       .animation2 {
+	width: 30px;
+	height: 30px;
+	background: red;
+
+    position: fixed;
+        top: 10vw;
+        left: 75vw;
+        animation: animationshadows2 3s forwards ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows2 {
+	0% { width: 20px;
+	height: 20px;
+       
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        
+        opacity: 1;
+        box-shadow: 
+      -200px 450px 0 0 blue, 
+      -1000px 300px 0 0 black,
+      -100px 250px 0 0 blue, 
+      -300px 700px 0 0 black, 
+      -1500px 355px 0 0 red, 
+      -500px 666px 0 0 black, 
+      -150px 150px 0 0 black,
+      -5px 0px 0 0 green, 
+      -90px 10px 0 0 yellow, 
+      -200px 40px 0 0 black, 
+      -250px 100px 0 0 purple,
+      -300px 150px 0 0 green, 
+      -400px 200px 0 0 black, 
+      -500px 225px 0 0 black;
+        
+        
+        }
+        26%{
+          width: 30px;
+	height: 30px;
+        
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 black, 
+      0px 0px 0 0 red, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 orange, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 blue, 
+      0px 0px 0 0 black,
+      0px 0px 0 0 green, 
+      0px 0px 0 0 black, 
+      0px 0px 0 0 black;
+            
+        }
+        27%{
+            opacity: 1;
+        }
+        
+        100%{
+             width: 20px;
+	height: 20px;
+        
+        opacity: 0;
+        box-shadow: 
+    -500px 450px 0 0 blue, 
+      -1500px 300px 0 0 black,
+      -1000px 250px 0 0 blue, 
+      -500px 700px 0 0 black, 
+      -150px 355px 0 0 red, 
+      -450px 666px 0 0 black, 
+      -600px 150px 0 0 black,
+      -800px 0px 0 0 green, 
+      -300px 10px 0 0 yellow, 
+      -5200px 40px 0 0 black, 
+      -50px 100px 0 0 purple,
+      -50px 150px 0 0 green, 
+      -100px 200px 0 0 black, 
+      -500px 225px 0 0 black;
+        }
+        
+        
+        
+        
+}
+    /* second animation */
+    
+    
+    
+    /* third animation */
+    
+     .animation3 {
+	width: 30px;
+	height: 30px;
+	background: yellow;
+
+    position: fixed;
+        top: 15vw;
+        left: 50vw;
+        animation: animationshadows3 3s forwards  ;
+        opacity: 0;
+}
+    
+    @keyframes animationshadows3 {
+	0% { width: 20px;
+	height: 20px;
+       
+        opacity: 0;
+        box-shadow: 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow;}
+        
+        10%{
+            opacity:.7;
+        }
+    25% { 
+        width: 30px;
+	height: 30px;
+        
+        opacity: 1;
+        box-shadow: 
+      -15px 450px 0 0 yellow,
+      15px 300px 0 0 yellow,
+      -400px 2px 0 0 yellow,
+      400px 30px 0 0 yellow, 
+      450px 355px 0 0 yellow, 
+      -450px 450px 0 0 yellow, 
+      300px -300px 0 0 yellow,
+      50px 50px 0 0 yellow, 
+      150px -150px 0 0 yellow, 
+      5px -5px 0 0 yellow, 
+      -250px 100px 0 0 yellow,
+      250px -150px 0 0 yellow, 
+      600px 200px 0 0 yellow,
+      -500px 1000px 0 0 yellow;
+        
+        
+        }
+       
+        
+        100%{
+            
+            
+            transform: rotate(600deg);
+             width: 20px;
+	height: 20px;
+        border-radius: 50px;
+        opacity: 0;
+        box-shadow: 
+    -15px 450px 0 0 yellow,
+      15px 300px 0 0 yellow,
+      -400px 2px 0 0 yellow,
+      400px 30px 0 0 yellow, 
+      450px 355px 0 0 yellow, 
+      -450px 450px 0 0 yellow, 
+      300px -300px 0 0 yellow,
+      50px 50px 0 0 yellow, 
+      150px -150px 0 0 yellow, 
+      5px -5px 0 0 yellow, 
+      -250px 100px 0 0 yellow,
+      250px -150px 0 0 yellow, 
+      600px 200px 0 0 yellow,
+      -500px 1000px 0 0 yellow;
+        }
+        
+        
+        
+        
+}
+    
+    
+    /* third animation */
+    
+    
+    
+    /* fourth animation */
+    
+    .animation4 {
+width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+        position: fixed;
+        top: 15vw;
+        left: 60vw;
+        opacity: 0;
+            
+        animation: animationshadows4 6s forwards ;
+}
+    .animation42{
+   width: 20px;
+	height: 20px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+        position: fixed;
+        top: 15vw;
+        left: 62vw;
+        opacity: 0;
+        
+        animation: animationshadows42 10s;;
+    }
+    
+    
+    
+    @keyframes animationshadows4 {
+	
+        0%{
+            top: 200vw;
+            left: -40vw;
+        }   
+        
+        50%{
+            width: 50px;
+	height: 50px;
+             top: 40vw;
+            left: 60vw;
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            width: 50px;
+	height: 50px;
+        }
+        
+    }
+    
+    @keyframes animationshadows42{
+        0%{
+               width: 0px;
+	height: 0px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+             box-shadow: 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow;
+        }
+        50%{
+               width: 0px;
+	height: 0px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+             box-shadow: 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow;
+        }
+        55%{
+               width: 0px;
+	height: 0px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+             box-shadow: 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow;
+        }
+       
+       
+     
+        76%{
+               width: 20px;
+	height: 20px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+            opacity: 1;
+            box-shadow: 
+    -50px 450px 0 0 yellow,
+      60px 300px 0 0 yellow,
+      -400px 60px 0 0 yellow,
+      400px 30px 0 0 yellow, 
+      450px 355px 0 0 yellow, 
+      -450px 450px 0 0 yellow, 
+      300px -300px 0 0 yellow,
+      400px 50px 0 0 yellow, 
+      150px -150px 0 0 yellow, 
+      300px -5px 0 0 yellow, 
+      -250px 100px 0 0 yellow,
+      250px -150px 0 0 yellow, 
+      600px 200px 0 0 yellow,
+      -500px 1000px 0 0 yellow,
+            
+        -33px 777px 0 0 yellow,
+      -50px 68px 0 0 yellow,
+      489px -89px 0 0 yellow,
+      470px -79px 0 0 yellow, 
+      -150px 600px 0 0 yellow, 
+      200px 130px 0 0 yellow, 
+      -70px 100px 0 0 yellow,
+      -200px 150px 0 0 yellow, 
+      -321px -279px 0 0 yellow, 
+      -239px 300px 0 0 yellow, 
+      400px 300px 0 0 yellow,
+      290px 250px 0 0 yellow, 
+      333px 400px 0 0 yellow,
+      -300px 200px 0 0 yellow;
+        }
+       100%{
+              width: 50px;
+	height: 50px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+            opacity: 0;
+           box-shadow: 
+    -50px 450px 0 0 yellow,
+      60px 300px 0 0 yellow,
+      -400px 60px 0 0 yellow,
+      400px 30px 0 0 yellow, 
+      450px 355px 0 0 yellow, 
+      -450px 450px 0 0 yellow, 
+      300px -300px 0 0 yellow,
+      400px 50px 0 0 yellow, 
+      150px -150px 0 0 yellow, 
+      300px -5px 0 0 yellow, 
+      -250px 100px 0 0 yellow,
+      250px -150px 0 0 yellow, 
+      600px 200px 0 0 yellow,
+      -500px 1000px 0 0 yellow,
+           
+    -33px 777px 0 0 yellow,
+      -50px 68px 0 0 yellow,
+      489px -89px 0 0 yellow,
+      470px -79px 0 0 yellow, 
+      -150px 600px 0 0 yellow, 
+      200px 130px 0 0 yellow, 
+      -70px 100px 0 0 yellow,
+      -200px 150px 0 0 yellow, 
+      -321px -279px 0 0 yellow, 
+      -239px 300px 0 0 yellow, 
+      400px 300px 0 0 yellow,
+      290px 250px 0 0 yellow, 
+      333px 400px 0 0 yellow,
+      -300px 200px 0 0 yellow;
+        }
+    }
+    
+    
+    
+    /* fourth animation */
+    
+     /* sun */
+    .sun {
+    position: fixed;
+        z-index: -8;
+        top: -20vw;
+      
+        animation: animationsun 8s alternate infinite forwards;
+     }
+    
+    
+    @keyframes animationsun {
+        
+        0%{
+            left: 0vw;
+           
+        }
+        
+        50%{
+            top: 0vw;
+            left: 7vw;
+        }
+        
+        100%{
+            top: 15vw;
+            left: 14vw;
+        }
+        
+       
+    }
+    
+    /* sun */
+    
+    /* moon */
+    
+    .moon{
+        position: fixed;
+        z-index: -8;
+        top: 5vw;
+        left: 60vw;
+        
+        animation: animationmoon 4s alternate infinite forwards;
+        
+        
+    }
+     @keyframes animationmoon {
+        
+        0%{
+            
+           top: 5vw
+        }
+        
+        50%{
+            top: 20vw;
+            
+        }
+        
+        100%{
+            top: 5vw;
+            
+        }
+        
+       
+    }
+    
+    /* moon */
+    
+    /* both */
+    
+      .moon2{
+        position: fixed;
+        z-index: -8;
+        top: 5vw;
+        left: 45vw;
+        
+        animation: animationmoon2 .5s alternate infinite forwards;
+    }
+    
+      .sun2{
+        position: fixed;
+        z-index: -8;
+        top: 5vw;
+        left: 10vw;
+        
+        animation: animationsun2 .2s alternate infinite forwards;
+    }
+    
+    
+    @keyframes animationsun2 {
+        
+        0%{
+            
+           top: 5vw
+        }
+        10%{
+            top:7vw;
+        }
+        20%{
+            top:3vw;
+        }
+        30%{
+            top:7vw;
+        }
+        40%{
+            top:3vw;
+        }
+        50%{
+            top:7vw;
+        }
+        60%{
+            top: 3vw;
+        }
+        70%{
+            top: 7vw;
+        }
+        80%{
+            top:3vw;
+        }
+        90%{
+            top:7vw;
+            
+        }
+        100%{
+            top: 5vw;
+        }
+        
+       
+    }
+    
+    @keyframes animationmoon2 {
+        
+        0%{
+            
+           top: 5vw
+        }
+        10%{
+            top:7vw;
+        }
+        20%{
+            top:3vw;
+        }
+        30%{
+            top:7vw;
+        }
+        40%{
+            top:3vw;
+        }
+        50%{
+            top:7vw;
+        }
+        60%{
+            top: 3vw;
+        }
+        70%{
+            top: 7vw;
+        }
+        80%{
+            top:3vw;
+        }
+        90%{
+            top:7vw;
+            
+        }
+        100%{
+            top: 5vw;
+        }
+        
+       
+    }
+    
+    /* both */
+    
+    
+    /* background */
+    
+     .animationbg {
+    position: fixed;
+        z-index: -5;
+        top: 18vw;
+        left: -85vw;
+        animation: animationshadowsbg 200s alternate infinite forwards;
+     }
+    .animationbg2{
+      position: fixed;
+        z-index:1;
+        top:18vw;
+      right: -100vw;
+        animation: animationshadowsbg2 180s alternate infinite forwards;
+    }
+    
+        @keyframes animationshadowsbg {
+        
+        0%{
+            
+            left: -85vw;
+        }
+        100%{
+            left: 50vw;
+            
+        }
+       
+    }
+    
+    @keyframes animationshadowsbg2{
+       
+      0%{
+          right:-100vw;
+            
+        }
+        100%{
+           right:0vw;
+    
+    }
+
+    }
+
+    
+    /* background */
+    
+    
+    /* sunbg */
+    
+    .bluebg{
+        position:fixed;
+        z-index:-15;
+        background-color: dodgerblue;
+        height: 500vw;
+        width: 500vw;
+    }
+    
+    /* sunbg */
+    
+     .blackbg{
+        position:fixed;
+        z-index:-15;
+        background-color: darkblue;
+        height: 500vw;
+        width: 500vw;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+     body{
+        width: 100vw;
+        
+        
+    }
+    .whitetile1{
+        background-color: white;
+        height: 15vw;
+        width: 3.75vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 43vw;
+        top: 34vw;
+        z-index: 2;
+    }
+    
+    .whitetile1:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .whitetile2{
+         background-color: white;
+        height: 15vw;
+        width: 3.75vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 46.75vw;
+        top: 34vw;
+          z-index: 2;
+    }
+    
+    .whitetile2:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile3{
+        background-color: white;
+        height: 15vw;
+        width: 3.75vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 50.5vw;
+        top: 34vw;
+         z-index: 2;
+    }
+    
+    .whitetile3:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+    .whitetile4{
+        background-color: white;
+        height: 15vw;
+        width: 3.75vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 54.25vw;
+        top: 34vw;
+         z-index: 2;
+    }
+    
+    .whitetile4:hover{
+        background-color: #d7e0c5;
+        border:0px solid white;
+    }
+    
+     .blacktile1{
+        background-color: black;
+        height: 9vw;
+        width: 1.87vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 45.8vw;
+        top: 34vw;
+         z-index: 4;
+    }
+    .blacktile1:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+     .blacktile2{
+        background-color: black;
+        height: 9vw;
+        width: 1.87vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 49.6vw;
+        top: 34vw;
+         z-index: 4;
+    }
+    
+    .blacktile2:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+    .blacktile3{
+        background-color: black;
+        height: 9vw;
+        width: 1.87vw;
+        border:1px solid black;
+        border-radius: 7px;
+        position: fixed;
+        left: 53.3vw;
+        top: 34vw;
+         z-index: 4;
+    }
+    .blacktile3:hover{
+        background-color: #212121;
+        border:0px solid black;
+    }
+    
+      /* fourth animation */
+    
+    .animation4 {
+width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+        position: fixed;
+        top: 15vw;
+        left: 60vw;
+        opacity: 0;
+            
+        animation: animationshadows4 6s forwards ;
+}
+    .animation42{
+   width: 20px;
+	height: 20px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+        position: fixed;
+        top: 15vw;
+        left: 62vw;
+        opacity: 0;
+        
+        animation: animationshadows42 10s;;
+    }
+    
+    
+    
+    @keyframes animationshadows4 {
+	
+        0%{
+            top: 200vw;
+            left: -40vw;
+        }   
+        
+        50%{
+            width: 50px;
+	height: 50px;
+             top: 40vw;
+            left: 60vw;
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            width: 50px;
+	height: 50px;
+        }
+        
+    }
+    
+    @keyframes animationshadows42{
+        0%{
+               width: 0px;
+	height: 0px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+             box-shadow: 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow;
+        }
+        50%{
+               width: 0px;
+	height: 0px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+             box-shadow: 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow;
+        }
+        55%{
+               width: 0px;
+	height: 0px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+             box-shadow: 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow,
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow, 
+      0px 0px 0 0 yellow;
+        }
+       
+       
+     
+        76%{
+               width: 20px;
+	height: 20px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+            opacity: 1;
+            box-shadow: 
+    -50px 450px 0 0 yellow,
+      60px 300px 0 0 yellow,
+      -400px 60px 0 0 yellow,
+      400px 30px 0 0 yellow, 
+      450px 355px 0 0 yellow, 
+      -450px 450px 0 0 yellow, 
+      300px -300px 0 0 yellow,
+      400px 50px 0 0 yellow, 
+      150px -150px 0 0 yellow, 
+      300px -5px 0 0 yellow, 
+      -250px 100px 0 0 yellow,
+      250px -150px 0 0 yellow, 
+      600px 200px 0 0 yellow,
+      -500px 1000px 0 0 yellow,
+            
+        -33px 777px 0 0 yellow,
+      -50px 68px 0 0 yellow,
+      489px -89px 0 0 yellow,
+      470px -79px 0 0 yellow, 
+      -150px 600px 0 0 yellow, 
+      200px 130px 0 0 yellow, 
+      -70px 100px 0 0 yellow,
+      -200px 150px 0 0 yellow, 
+      -321px -279px 0 0 yellow, 
+      -239px 300px 0 0 yellow, 
+      400px 300px 0 0 yellow,
+      290px 250px 0 0 yellow, 
+      333px 400px 0 0 yellow,
+      -300px 200px 0 0 yellow;
+        }
+       100%{
+              width: 50px;
+	height: 50px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+            opacity: 0;
+           box-shadow: 
+    -50px 450px 0 0 yellow,
+      60px 300px 0 0 yellow,
+      -400px 60px 0 0 yellow,
+      400px 30px 0 0 yellow, 
+      450px 355px 0 0 yellow, 
+      -450px 450px 0 0 yellow, 
+      300px -300px 0 0 yellow,
+      400px 50px 0 0 yellow, 
+      150px -150px 0 0 yellow, 
+      300px -5px 0 0 yellow, 
+      -250px 100px 0 0 yellow,
+      250px -150px 0 0 yellow, 
+      600px 200px 0 0 yellow,
+      -500px 1000px 0 0 yellow,
+           
+    -33px 777px 0 0 yellow,
+      -50px 68px 0 0 yellow,
+      489px -89px 0 0 yellow,
+      470px -79px 0 0 yellow, 
+      -150px 600px 0 0 yellow, 
+      200px 130px 0 0 yellow, 
+      -70px 100px 0 0 yellow,
+      -200px 150px 0 0 yellow, 
+      -321px -279px 0 0 yellow, 
+      -239px 300px 0 0 yellow, 
+      400px 300px 0 0 yellow,
+      290px 250px 0 0 yellow, 
+      333px 400px 0 0 yellow,
+      -300px 200px 0 0 yellow;
+        }
+    }
+    
+    
+    /* fourth aniumation */
+      /* sun */
+    .sun {
+    position: fixed;
+        z-index: -8;
+        top: 0vw;
+      
+        animation: animationsun 8s alternate infinite forwards;
+     }
+    
+    
+    @keyframes animationsun {
+        
+        0%{
+            left: 0vw;
+           
+        }
+        
+        50%{
+            top: 0vw;
+            left: 7vw;
+        }
+        
+        100%{
+            top: 15vw;
+            left: 14vw;
+        }
+        
+       
+    }
+    
+    /* sun */
+    
+     /* moon */
+    
+    .moon{
+        position: fixed;
+        z-index: -8;
+        top: 5vw;
+        left: 67vw;
+        
+        animation: animationmoon 8s alternate infinite forwards;
+    }
+    
+    @keyframes animationmoon {
+        
+        0%{
+            
+           top: 5vw
+        }
+        
+        50%{
+            top: 10vw;
+            
+        }
+        
+        100%{
+            top: 5vw;
+            
+        }
+        
+       
+    }
+    /* moon */
+    
+       /* both */
+    
+      .moon2{
+        position: fixed;
+        z-index: -8;
+        top: 5vw;
+        left: 45vw;
+        
+        animation: animationmoon2 .2s alternate infinite forwards;
+    }
+    
+      .sun2{
+        position: fixed;
+        z-index: -8;
+        top: 5vw;
+        left: 25vw;
+        
+        animation: animationsun2 .3s alternate infinite forwards;
+    }
+    
+    
+     @keyframes animationsun2 {
+        
+        0%{
+            
+           top: 5vw
+        }
+        10%{
+            top:7vw;
+        }
+        20%{
+            top:3vw;
+        }
+        30%{
+            top:7vw;
+        }
+        40%{
+            top:3vw;
+        }
+        50%{
+            top:7vw;
+        }
+        60%{
+            top: 3vw;
+        }
+        70%{
+            top: 7vw;
+        }
+        80%{
+            top:3vw;
+        }
+        90%{
+            top:7vw;
+            
+        }
+        100%{
+            top: 5vw;
+        }
+        
+       
+    }
+    
+    @keyframes animationmoon2 {
+        
+        0%{
+            
+           top: 5vw
+        }
+        10%{
+            top:7vw;
+        }
+        20%{
+            top:3vw;
+        }
+        30%{
+            top:7vw;
+        }
+        40%{
+            top:3vw;
+        }
+        50%{
+            top:7vw;
+        }
+        60%{
+            top: 3vw;
+        }
+        70%{
+            top: 7vw;
+        }
+        80%{
+            top:3vw;
+        }
+        90%{
+            top:7vw;
+            
+        }
+        100%{
+            top: 5vw;
+        }
+        
+       
+    }
+    /* both */
+    /* sunbg */
+    
+    .bluebg{
+        position:fixed;
+        z-index:-15;
+        background-color: dodgerblue;
+        height: 500vw;
+        width: 500vw;
+    }
+    
+    /* sunbg */
+     .blackbg{
+        position:fixed;
+        z-index:-15;
+        background-color: darkblue;
+        height: 500vw;
+        width: 500vw;
+    }
+}
